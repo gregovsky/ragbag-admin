@@ -1,0 +1,10 @@
+title: Orders
+templateScript: /ragbag-admin/templates/components/orders.ftl
+renderType: freemarker
+#dialog: ragbag:pages/home
+
+variations:
+  js:
+    templateScript: /ragbag-admin/templates/components/orders-js.ftl
+  json:
+    templateScript: /ragbag-admin/templates/components/orders-json.ftl

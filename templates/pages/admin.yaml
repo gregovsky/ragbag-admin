@@ -1,0 +1,18 @@
+title: Ragbag *Admin*
+templateScript: /ragbag-admin/templates/pages/admin.ftl
+renderType: freemarker
+#dialog: ragbag:pages/home
+visible: true
+
+
+areas:
+
+  ordersAreas:
+    renderType: freemarker
+    type: single
+    autoGeneration:
+      content:
+        orders:
+          nodeType: mgnl:component
+          templateId: ragbag-admin:components/orders
+      generatorClass: info.magnolia.rendering.generator.CopyGenerator
