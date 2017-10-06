@@ -98,9 +98,10 @@ var ordersApp = new Vue({
         if(element['status'] == _order.status) {
           res = element['icon'];
           status = element['status'];
+          order.status = status;
         }
       });
-      order.status = status;
+
       return res;
     },
 

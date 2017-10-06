@@ -111,6 +111,9 @@
                         <div class="stats bigCardHidden">
                             {{ item.shipping }}
                         </div>
+                        <div class="stats">
+                            obj. číslo: {{ item['@name'] }}
+                        </div>
                     </div>
                 </div>
                 <div class="card_exit bigCardOnly"><i v-on:click="closeOrder()" class="ti-close"></i></div>
